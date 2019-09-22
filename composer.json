@@ -1,0 +1,11 @@
+{
+    "name": "local_admin/cms.loc",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "engine\\": "engine",
+            "cms\\": "cms",
+            "engine\\di\\": "engine/di"
+        }
+    }
+}
